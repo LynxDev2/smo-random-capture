@@ -1,10 +1,14 @@
-# SMO-Exlaunch-Base
+
+# SMO random capture
+
+This mod puts mario in a random capture every 30 secconds. /smo/RandomCaptureMod/actors.txt specifies the [factory names](https://github.com/LynxDev2/smo-random-capture/blob/master/libs/al/Library/Factory/ActorFactoryEntries100.h) of the capture actors to chose from.
+Some captures require extra params to work. The ones I've made are in /smo/RandomCaptureMod/ActorInfo/. For example when the mod spawns a frog it looks for /smo/RandomCaptureMod/ActorInfo/Frog.byml
+Please note that all captures don't work even with the right params.
+
+
+# Original SMO-Exlaunch-Base README
 
 A base repository using exlaunch-cmake that contains code for modifying Super Mario Odyssey 1.0.
-
-# Notes
-
-Currently untested
 
 # Credits
 
