@@ -1,3 +1,4 @@
-KuriboPossessed
+HammerBrosPossessed
+FireBrosPossessed
 Frog
-
+Bull
