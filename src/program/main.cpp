@@ -180,7 +180,11 @@ HOOK_DEFINE_TRAMPOLINE(ControlHook) {
 
 HOOK_DEFINE_TRAMPOLINE(ZR_ZLInputHook){
     static bool Callback(int port){
-        return Orig(port) && al::isPadHoldL(port);
+        if (Orig(port) && al::isPadHoldL(port)){
+            frameCounter = 0;
+            return true;
+        }
+        return false;
     }
 };
 
